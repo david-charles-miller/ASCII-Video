@@ -1,3 +1,6 @@
 #!/bin/bash
 
-gcc picture_to_ascii.c -lSDL2main -lSDL2
+cmake .
+make
+
+#gcc picture_to_ascii.c -lSDL2main -lSDL2
